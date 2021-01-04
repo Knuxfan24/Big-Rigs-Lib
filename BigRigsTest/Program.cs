@@ -12,16 +12,7 @@ namespace BigRigsTest
     {
         static void Main(string[] args)
         {
-            string[] files = Directory.GetFiles(@"Y:\filesssssss\Data", "*.*", SearchOption.AllDirectories);
-            List<string> extensions = new List<string>();
-
-            foreach(string file in files)
-            {
-                if (!extensions.Contains(Path.GetExtension(file).ToLower()))
-                {
-                    extensions.Add(Path.GetExtension(file).ToLower());
-                }
-            }
+            MapDescriptor dsc = new MapDescriptor(@"Y:\filesssssss\Data\Tracks\003\Scene\room.dsc");
         }
     }
 }

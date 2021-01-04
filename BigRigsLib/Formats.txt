@@ -1,5 +1,5 @@
 ﻿.bmp - Standard Bitmap Graphic
-.vs  - Uncompiled Shader?
+.vs  - Uncompiled Shader? Is actually used by Small Town Road, as this file being absent causes that map to crash.
 .nfo - List of Tracks and Vehicles (wh18 and tracks seem to be the only ones used by Big Rigs)
 .mat - Material Library
 .sco - Model Formats
