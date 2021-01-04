@@ -4,6 +4,7 @@ An odd, rather hacked together library for handling all of the plain-text format
 ## Currently Supported Formats
 - SCO Model (.sco)
 - Material Library (.mat)
+- Map Descriptor (.dsc)
 
 ___
 
