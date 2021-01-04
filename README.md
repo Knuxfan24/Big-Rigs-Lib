@@ -1,7 +1,7 @@
 # Big Rigs Lib
-An odd, rather hacked together library for handling formats in the infamous Big Rigs: Over the Road Racing.
+An odd, rather hacked together library for handling all of the plain-text formats in the infamous Big Rigs: Over the Road Racing.
 
-## Currently Support Formats
+## Currently Supported Formats
 - SCO Model (.sco)
 - Material Library (.mat)
 
