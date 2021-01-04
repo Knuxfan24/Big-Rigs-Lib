@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,16 @@ namespace BigRigsTest
     {
         static void Main(string[] args)
         {
-            SCOModel sco = new SCOModel(@"D:\Standalone Games\test\Data\Cars\Truck1\Icon.bmp");
+            string[] files = Directory.GetFiles(@"Y:\filesssssss\Data", "*.*", SearchOption.AllDirectories);
+            List<string> extensions = new List<string>();
+
+            foreach(string file in files)
+            {
+                if (!extensions.Contains(Path.GetExtension(file).ToLower()))
+                {
+                    extensions.Add(Path.GetExtension(file).ToLower());
+                }
+            }
         }
     }
 }

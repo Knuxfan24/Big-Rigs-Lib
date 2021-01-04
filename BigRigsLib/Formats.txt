@@ -1,0 +1,17 @@
+﻿.bmp - Standard Bitmap Graphic
+.vs  - Uncompiled Shader?
+.nfo - List of Tracks and Vehicles (wh18 and tracks seem to be the only ones used by Big Rigs)
+.mat - Material Library
+.sco - Model Formats
+.dds - Standard DirectDraw Surface Graphic (used for a single truck's cubemap (the default DX example one of a Microsoft office...))
+.dat - Few variants, some for fonts (that seem to be UV coordinates or something?), some for the environment (Ambient lighting and Fog) and some for world data
+.psd - Left over Photoshop Documents
+.wav - Standard Waveform Audio Files
+.lit - Lighting Data for tracks
+.def - Something to do with defining the height maps for the tracks?
+.cfg - Three numbers that do SOMETHING for Track001 and Track003
+.dsc - List of objects to place in the world
+.shd - Something to do with Sky Domes
+.pat - List of three numbers, not sure what these do
+.pos - Start position of the player and opponent, seems to have four values rather than just two
+.txt - A single standard text document in Track002 containing three floating point numbers
